@@ -1,4 +1,4 @@
-# Notes/
+# Notes
 <ul>
 <li>
 <h2>1.thirdPartyLibrary</h2>
