@@ -26,7 +26,10 @@
 ```php
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.2"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.2"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0" //LifecycleScope
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0" //livedata
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0" //viewModelScope
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.2" //firebase
 ```
 <p>102. DataStore</p>
 
