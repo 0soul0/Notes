@@ -9,5 +9,9 @@
 <h2>2. doc</h2>
   a. java principle<br> 
 </li>
+<li>
+<h2>3. learning</h2>
+  a. launchMode<br> 
+</li>
 </ul>
 
