@@ -28,7 +28,7 @@
  兩個都是網格佈局,差別在於GridView像recycleview 無限長度
 ```
 
-<p>2.onDraw->invalidate vs postInvalidate</p>
+<p>3.onDraw->invalidate vs postInvalidate</p>
 
 ```php  
  invalidate: 刷新整個view
