@@ -34,3 +34,10 @@
  invalidate: 刷新整個view
  postInvalidate: 在子線程 刷新整個view
 ```
+
+<p>4.onDraw->NestedScrollView vs ScrollView</p>
+
+```php  
+ ScrollView: 版面滑動
+ NestedScrollView: 同上,同時解決RecycleView滑動衝突(意思滑動效果像是把多個recycleview或是元件合成一個recycleview)
+```
