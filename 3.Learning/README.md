@@ -19,8 +19,10 @@
     GotoA: B(onPause)->A(onRestart->onStart->onNewIntent "獲取新的restart intent"->onResume)->B(onStop->onDestroy)
     
   singleInstance:
-    
-  
-  
-  
+   
+```
+<p>2. GridView vs GridLayout</p>
+
+```php  
+ 兩個都是網格佈局,差別在於GridView像recycleview 無限長度
 ```
