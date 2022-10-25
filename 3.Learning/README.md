@@ -21,8 +21,16 @@
   singleInstance:
    
 ```
+
 <p>2. GridView vs GridLayout</p>
 
 ```php  
  兩個都是網格佈局,差別在於GridView像recycleview 無限長度
+```
+
+<p>2.onDraw->invalidate vs postInvalidate</p>
+
+```php  
+ invalidate: 刷新整個view
+ postInvalidate: 在子線程 刷新整個view
 ```
